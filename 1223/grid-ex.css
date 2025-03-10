@@ -1,0 +1,32 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+}
+.header{
+    background-color: #7bbdf2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.navi{
+    background-color: #b27bf2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+.main{
+    background-color: #fb569b;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+.aside{
+    background-color: #fb9356;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+.footer{
+    background-color: #fbc956;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
